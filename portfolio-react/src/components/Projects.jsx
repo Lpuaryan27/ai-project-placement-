@@ -22,15 +22,15 @@ const Projects = () => {
       title: 'Travel-with-iQlipse',
       desc: 'An AI-powered travel planning and Agency experiences website leveraging high fidelity styling and animations.',
       tags: ['Tailwind CSS', 'JavaScript', 'GSAP', 'AI API'],
-      demo: 'https://github.com/Lpuaryan27/Travel-with-iQlipse---AI-Powered-Travel-Experiences',
+      demo: 'https://travel-agency-ahk1.onrender.com',
       github: 'https://github.com/Lpuaryan27/Travel-with-iQlipse---AI-Powered-Travel-Experiences',
       image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80'
     },
     {
-      title: 'Iqlipse Space & Skillipse',
-      desc: 'Two highly functional online platforms dedicated to creating creative tech resources and sharing developer skill frameworks.',
-      tags: ['React', 'Node.js', 'UI Design', 'Web3'],
-      demo: 'https://iqlipse.space',
+      title: 'Iqlipse LPU Website',
+      desc: 'Interactive university community platform featuring custom information directories, student portals, and resources.',
+      tags: ['React', 'Node.js', 'UI Design', 'Vite'],
+      demo: 'https://iqlipse-delta.vercel.app/home',
       github: 'https://github.com/Lpuaryan27',
       image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80'
     }

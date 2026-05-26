@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FaCode, FaRocket, FaTerminal, FaChevronDown } from 'react-icons/fa';
+import iqlipseProfile from '../assets/iqlipse_profile.jpg';
 
 const Hero = () => {
   const words = ["Full Stack Developer", "Founder of Iqlipse", "UI/UX Innovator", "Tech Architect"];
@@ -162,15 +163,15 @@ const Hero = () => {
                     position: 'relative'
                   }}
                 >
-                  {/* Neon Tech Icon Grid */}
-                  <div style={{ color: 'var(--text-secondary)', textAlign: 'center', padding: '20px' }}>
-                    <div className="gradient-text" style={{ fontSize: '4rem', fontWeight: 900, fontFamily: 'Space Grotesk' }}>
-                      I Q
-                    </div>
-                    <div style={{ fontSize: '0.8rem', letterSpacing: '4px', textTransform: 'uppercase', color: 'var(--accent)', marginTop: '8px' }}>
-                      Iqlipse Labs
-                    </div>
-                  </div>
+                  <img 
+                    src={iqlipseProfile} 
+                    alt="Aryan Kumar - Founder of Iqlipse"
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover'
+                    }}
+                  />
                 </div>
               </div>
 
